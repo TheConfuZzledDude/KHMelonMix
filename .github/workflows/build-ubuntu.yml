@@ -89,7 +89,7 @@ jobs:
         path: dist_appimage/MelonMix.AppImage
     - uses: actions/upload-artifact@v4
       with:
-        name: MelonMix.AppImage.zsync
+        name: MelonMix-x86_64.AppImage.zsync
         path: MelonMix.AppImage.zsync
 
   build-aarch64:
